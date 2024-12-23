@@ -1,1 +1,113 @@
-<!-- nothing here -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Portfolio of Peeter Apondja, a frontend developer and designer."
+		/>
+		<title>Peeter Apondja - Portfolio</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<div class="nav-logo">
+				<p class="nav-name">Peeter<span>.</span></p>
+			</div>
+			<nav>
+				<ul class="nav-menu">
+					<li><a href="#home" class="active">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</header>
+
+		<section id="home" class="hero">
+			<h1>Welcome to My Portfolio</h1>
+			<p>Hi, I'm Peeter Apondja, a passionate developer and designer.</p>
+			<div class="buttons">
+				<a href="#contact" class="btn">Hire Me</a>
+				<a href="cv.pdf" class="btn">Download CV</a>
+			</div>
+			<div class="hero-image">
+				<img
+					src="foto_peeter.webp"
+					alt="Peeter Apondja"
+					class="profile-image"
+				/>
+			</div>
+		</section>
+
+		<section id="about">
+			<h2>About Me</h2>
+			<div class="about-content">
+				<p>
+					I specialize in creating responsive and visually appealing web
+					applications. With expertise in HTML, CSS, and JavaScript, I aim to
+					deliver outstanding digital experiences. My passion lies in
+					problem-solving and building user-friendly designs that leave a
+					lasting impression. Over the years, I have honed my skills in web
+					development and collaborated on various impactful projects.
+				</p>
+				<img
+					src="about-me.webp"
+					alt="About Peeter Apondja"
+					class="about-image"
+				/>
+			</div>
+		</section>
+
+		<section id="projects">
+			<h2>My Projects</h2>
+			<div class="projects">
+				<div class="project">
+					<h3>Personal Portfolio</h3>
+					<p>
+						A showcase of my skills and projects designed with responsiveness in
+						mind.
+					</p>
+					<a href="#" class="btn">View Project</a>
+				</div>
+				<div class="project">
+					<h3>Smart Waste Management</h3>
+					<p>
+						A tech-driven solution for automating waste sorting processes in
+						cities.
+					</p>
+					<a href="#" class="btn">View Project</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>
+				If you'd like to collaborate or have any inquiries, feel free to reach
+				out:
+			</p>
+			<ul>
+				<li>Email: peeter.apondja.stu@protonmail.com</li>
+				<li>Phone: +32 467 717 037</li>
+			</ul>
+			<form action="#" method="post">
+				<input type="text" name="name" placeholder="Your Name" required />
+				<input type="email" name="email" placeholder="Your Email" required />
+				<textarea name="message" placeholder="Your Message" required></textarea>
+				<button type="submit" class="btn">Send Message</button>
+			</form>
+		</section>
+
+		<footer>
+			<p>&copy; 2024 Peeter Apondja. All Rights Reserved.</p>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
